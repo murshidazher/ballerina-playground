@@ -1,5 +1,7 @@
 import ballerina/io;
 
+// define the interface of an object
+// since both object has the same mandotary fields it takes as a subclass
 type Animal abstract object {
 
     public string name;
@@ -32,8 +34,8 @@ type Owl object {
 };
 
 function printAnimal(Animal animal) {
-    io:println("Animal name: ", animal.name, ", class: ", 
-               animal.class, ", sound: ", animal.sound());
+    io:println("Animal name: ", animal.name, ", class: ",
+        animal.class, ", sound: ", animal.sound());
 }
 
 public function main() {
