@@ -1,6 +1,6 @@
-# [ballerina-playground](https://github.com/murshidazher/ballerina-playground)
+# [🩰 ballerina-playground](https://github.com/murshidazher/ballerina-playground)
 
-> Learning ballerina 🍥 🍥
+> Learning ballerina 🩰
 
 ## Setup
 
